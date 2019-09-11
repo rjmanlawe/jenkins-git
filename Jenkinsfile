@@ -3,10 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello Daddy RJ"'
+                sh 'echo "Hello Daddy RJ to our success!"'
                 sh '''
                     echo "Multiline shell steps works too"
-                    ls -lah
+                    cat > hello.txt
+	            this is a test
+                    exit;
                 '''
             }
         }
