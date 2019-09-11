@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     cat > hello.txt
 	            this is a test
-                    exit;
+                    done;
                 '''
             }
         }
