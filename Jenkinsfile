@@ -6,7 +6,6 @@ pipeline {
                 sh 'echo "Hello Daddy RJ to our success!"'
                 sh '''
                     echo "Multiline shell steps works too"
-                    top
 	            df -h
                 '''
             }
